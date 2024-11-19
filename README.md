@@ -69,6 +69,8 @@ For the input of this system, the video should ideally include the full body of 
 **All models used for pose estimation are included in this repository.**
 #### Running the System
 
+**Since I'm using [Kimi](https://platform.moonshot.cn/docs/api/chatlarge) as the LLM for fitness advice generation. If you want to continue use Kimi, you will need to replace the key with your key of Kimi int the `client_prompt` from [`evaluate.py`](evaluate.py).**
+
 `MainWindows.py` is the main code for running this system. Please configure the appropriate PyQt5 library in PyCharm to run the frontend interface. 
 
 Simply run `MainWindows.py` to start the application.
