@@ -7,6 +7,12 @@ ChatCoach实现的是一个基于姿态估计与大模型（LLM）的健身矫�
 
 ChatCoach is a fitness correction system based on pose estimation and large language models (LLMs). The primary goal is to provide fitness action guidance for individuals who are new to fitness.
 
+This repo is based on two of [OpenMMLab](https://openmmlab.com/)'s previous works:
+- [mmpose](https://github.com/open-mmlab/mmpose)
+- [mmdet](https://github.com/open-mmlab/mmdetection)
+
+Both of the works above are based on Apache-2.0 license.
+
 ### Key Functions
 
 The main functionality of the system is to provide relevant fitness action guidance based on video files input by users. Our system covers 8 common fitness actions, which are:
